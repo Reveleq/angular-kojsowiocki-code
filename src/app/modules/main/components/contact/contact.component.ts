@@ -7,20 +7,18 @@ import emailjs from '@emailjs/browser';
   styleUrls: ['./contact.component.scss'],
 })
 export class ContactComponent implements OnInit {
-
-
   constructor(private scrollService: ScrollService) {}
   async send() {
-    // emailjs.init('sOHu_Mtt7p98OyrQl')
-    // let response = await emailjs.send('service_f0rmejn', 'template_apmor7j', {
-    //   from_name: this.name,
-    //   to_name: 'Kojsowiocki',
-    //   from_email: this.email,
-    //   message: this.text,
-    // });
+    emailjs.init('sOHu_Mtt7p98OyrQl');
+    let response = await emailjs.send('service_f0rmejn', 'template_apmor7j', {
+      from_name: this.name,
+      to_name: 'Kojsowiocki',
+      from_email: this.email,
+      message: this.text,
+    });
     alert('Wiadomość została poprawnie wysłana');
   }
-  emailRegex: string = ""
+  emailRegex: string = '';
   errorText!: string;
   name!: string;
   email!: string;

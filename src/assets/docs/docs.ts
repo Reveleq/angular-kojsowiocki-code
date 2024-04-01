@@ -82,8 +82,8 @@ export const timetable: Timetable[] = [
   },
   {
     title: 'Ostatni grany koncert',
-    date: '07.03.2024 r.',
-    content: 'Święto Patrona Szkoły w Szkole Podstawowej w Kojszówce',
+    date: '17.03.2024 r.',
+    content: 'Jarmark Wielkanocny na makowskim rynku',
   },
 ];
 export const achievements: Achievement[] = [
@@ -408,5 +408,33 @@ export const news: News[] = [
     content:
       '8 marca, Kojsowiocki brali udział w obchodach Święta Patrona Szkoły. W swoich utworach wspominali jego sylwetkę i wspaniałą twórczość',
     link: 'https://www.facebook.com/permalink.php?story_fbid=pfbid0pXM2333xuKWQuXZVSm4M8h7LgCL59wACd2Eu8bKezVjGi8qnQAvc8iD5xdg6FKK3l&id=100063025850577',
+  },
+  {
+    id: 16,
+    title: "17.03.2024 r.",
+    src: "assets/img/17.03.2024.jpeg",
+    srcDetails: [
+      {
+        id: 1,
+        src: "assets/img/17.03.2024.1.jpeg",
+      },
+      {
+        id: 2,
+        src: "assets/img/17.03.2024.2.jpeg",
+      },
+      {
+        id: 3,
+        src: "assets/img/17.03.2024.3.jpeg",
+      },
+      {
+        id: 4,
+        src: "assets/img/17.03.2024.4.jpeg",
+      },
+    ],
+    contentDetails:
+      "17 marca, W słoneczne, niedzielne popołudnie Kojsowiocki zaśpiewały na Jarmarku Wielkanocnym na makowskim rynku",
+    content:
+      "17 marca, W słoneczne, niedzielne popołudnie Kojsowiocki zaśpiewały na Jarmarku Wielkanocnym na makowskim rynku",
+    link: "https://www.facebook.com/permalink.php?story_fbid=pfbid0yUm9iJcscm5uPtnmSFb4YNb4kABGY1SFEJgxjAkaqsJYY75zJ2TzJqd4n3P1Dyupl&id=100063025850577",
   },
 ];
